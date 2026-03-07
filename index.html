@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smaran Here</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed5bfbb94f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Computer Engineering Student</p>
+                <h1>Hi! I am <span>Smaran</span> a student from<br> Nepal based in Dallas</h1>
+            </div>
+        </div>
+    </div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="phonebg.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p class="bigger">I am a passionate and dedicated student pursuing Computer Engineering. I have a strong interest in software development, problem-solving, and exploring new technologies. My goal is to contribute to innovative projects and grow as a professional in the field of computer science.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Computer Engineering Student</span><br>Currently studying at UTA</li>
+                    <li><span>Programming Languages</span><br>Python,C</li>
+                    <li><span>Web Development</span><br>Experience with HTML, CSS, and JavaScript</li>
+                </ul>
+            </div>
+             <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2025-Current</span><br>Trailblazer Tour Guide</li>
+                    <li><span>2024</span><br>Teaching Intern</li>
+                    <li><span>2022-2024</span><br>Database and Social Media Management</li>
+                </ul>
+            </div>
+             <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2025-2029</span><br>University of Texas at Arlington</li>
+                    <li><span>2022-2024</span><br>Global School of Science</li>
+                    <li><span>2014-2022</span><br>KMC School</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Learning--------------------------------------------->
+<div id="learning">
+    <div class="container">
+        <h1 class="sub-title">What I'm Learning</h1>
+        <div class="learning-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Currently trying to strengthen Python fundamentals whilst bringing
+                data vizualization into the picture.
+                <a href="#">Learn More</a>
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C Programming</h2>
+                <p>Learning the fundamentals of programming through C, including variables,
+                control structures, functions, and memory concepts. Building a strong foundation 
+                for low-level programming and embedded systems.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Web Development Basics</h2>
+                <p>Exploring HTML, CSS, and JavaScript to build responsive websites and 
+                understand how front-end web technologies work together.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div> 
+<!------------------ portfolio ---------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work/Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Psec1.jpg">
+                <div class="layer">
+                    <h3>Automotive engieering</h3>
+                    <p>Learning and bettering myself to get into automotives.</p>
+                    <a href="#"><i class="fa-solid fa-car"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Psec2.jpg">
+                <div class="layer">
+                    <h3>Circuit Design</h3>
+                    <p>Getting more into designing circuits inside and outside of class</p>
+                    <a href="#"><i class="fa-solid fa-microchip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Psec3.jpg">
+                <div class="layer">
+                    <h3>Research</h3>
+                    <p>Trying to get into research, interested in the intersection
+                        of medicine and engineering.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-x-ray"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- contact---------------------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>smaranhere@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/smaran.khadka.79/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/smaranhere/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/smaranhere"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/smarann_/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Resume_Research.docx" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name='YOUR_FORM_NAME' >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>No copyright, just learning and applying <i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbzvQ7kWpau369Mx6IS4780gyT7VniVsegBPIdVmevNh2Ho33XF4FGCM2xB-1KNvUbsoMQ/exec'
+	const form = document.forms['YOUR_FORM_NAME']
+    const msg=document.getElementById("msg")
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => {
+                form.reset()
+                msg.innerHTML="Message Sent!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+            })
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</body>
+</html> 
